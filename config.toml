@@ -6,10 +6,11 @@ theme = "hyde-hyde"
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+title = "Grist for the Mills"
+
 ## Hugo Built-in Features
 disqusShortname = "gristforthemills"
 googleAnalytics = "UA-116143566-1"
-title = "Grist for the Mills"
     
 ## Site Settings
 [params]
