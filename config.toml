@@ -1,0 +1,40 @@
+## Basic Configuration
+baseurl = "/"
+languageCode = "en"
+
+theme = "hyde-hyde"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+## Hugo Built-in Features
+disqusShortname = "gristforthemills"
+googleAnalytics = "UA-116143566-1"
+title = "Grist for the Mills"
+    
+## Site Settings
+[params]
+    author = "Patrick Miller"
+    description = "Machine learning explorations into everyday topics"
+    authorimage = "/img/logo.svg"
+    dateformat = "Jan 2006"
+    highlightjs = true
+    # highlightjsstyle = "github"
+
+## Social Accounts
+[params.social]
+    github = "patrick-miller"
+    linkedin = "patrick-w-miller"
+    twitter = "gristformills"
+    email = "grist.for.the.mills.ai@gmail.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "About Me"
+    weight = 200
+    identifier = "about"
+    url = "/about/"
