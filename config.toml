@@ -21,6 +21,10 @@ googleAnalytics = "UA-116143566-1"
     highlightjs = true
     # highlightjsstyle = "github"
 
+[params.meta]
+description = "Machine learning explorations into everyday topics"
+keywords = "machine learning, data science, Python, R"
+    
 ## Social Accounts
 [params.social]
     github = "patrick-miller"
