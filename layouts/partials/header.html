@@ -13,6 +13,13 @@
     {{- end }}
     <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}" property="og:title">
     <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.meta.description }}{{ if eq $isHomePage false }} - {{ .Description }}{{ end }}" property="og:description">
+    {{ if isset .Params "image"}}
+    <meta property="og:image" content="https://www.gristforthemills.com{{ .Params.image | relURL }}"/>
+    <meta property="og:image:secure_url" content="{{ .Params.image | absURL }}"/>
+    {{ else }}
+    <meta property="og:image" content="https://www.gristforthemills.com{{ .Site.Params.image | relURL }}"/>
+    <meta property="og:image:secure_url" content="{{ .Site.Params.image | absURL }}"/>
+    {{ end }}
     {{ "<!-- CSS -->" | safeHTML }}
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/print.css" media="print">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/poole.css">
