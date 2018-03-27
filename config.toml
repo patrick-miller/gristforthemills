@@ -22,8 +22,9 @@ googleAnalytics = "UA-116143566-1"
     # highlightjsstyle = "github"
 
 [params.meta]
-description = "Machine learning explorations into everyday topics"
-keywords = "machine learning, data science, Python, R"
+    description = "Machine learning explorations into everyday topics"
+    keywords = "machine learning, data science, Python, R"
+    image = "https://www.gristforthemills.com/img/logo.png"
     
 ## Social Accounts
 [params.social]
