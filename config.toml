@@ -16,14 +16,15 @@ googleAnalytics = "UA-116143566-1"
 [params]
     author = "Patrick Miller"
     description = "Machine learning explorations into everyday topics"
+    image = "/img/logo.png"
     authorimage = "/img/logo.svg"
     dateformat = "Jan 2006"
     highlightjs = true
     # highlightjsstyle = "github"
 
 [params.meta]
-description = "Machine learning explorations into everyday topics"
-keywords = "machine learning, data science, Python, R"
+    description = "Machine learning explorations into everyday topics"
+    keywords = "machine learning, data science, Python, R"
     
 ## Social Accounts
 [params.social]
